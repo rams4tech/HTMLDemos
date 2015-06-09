@@ -60,13 +60,13 @@ function getServerData(id)
     }
     xmlhttp.onreadystatechange=function()
     {
-        alert("in the call back");
+
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
             alert("succesfully executed the ajax calls");
             document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
         } else {
-            alert("got failed ");
+
             document.getElementById("myDiv").innerHTML="<h1>Failed to connect to the server</h1>";
         }
     }

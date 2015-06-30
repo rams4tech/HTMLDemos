@@ -3,35 +3,48 @@
 <html>
 <head>
     <title>CSS Demo</title>
-    <link href="resources/css/demo1.css" type="text/css" rel="stylesheet">
+
     <style type="text/css">
         .myNewStyle {
             font-family: Verdana, Arial, Helvetica, sans-serif;
-            color: darkblue !important;
+            color: darkblue;
             font-weight: lighter;
         }
 
         #thing {
             font-weight: 100;
             color: black;
+            font-size: xx-large;
         }
 
-        p{
+        p {
             font-weight: 500;
             color: brown;
+        }
+
+        span {
+            font-size: xx-small;
+            color: darkblue;
+
         }
 
 
     </style>
 </head>
 <body>
-<p class="myNewStyle" style="color: yellow">My CSS styled text</p>
-<span class="myNewStyle">thi sis span</span>
-<p class="myNewStyle" style="{color: yellow; font-weight : normal}">My CSS styled text</p>
-<p class="myNewStyle" style="font-weight: bold">Another Text</p>
+<p class="myNewStyle">My CSS styled text</p>
+<span>thi sis span</span>
+<p class="myNewStyle">My CSS styled text</p>
+<p class="myNewStyle">Another Text</p>
 <p id="thing1"><font color="red"> Chapter 1. </font></p>
-<p class="myNewStyle" id="thing"> Chapter 2</p>
+<p id="thing"> Chapter 2</p>
 <p> Chapter 1. </p>
+<div class="myNewStyle">
+    this is the div style
+
+</div>
+
+
 <!--<p id="thing"> Chapter 1. </p>-->
 </body>
 </html>

@@ -3,22 +3,45 @@
 <html>
 <head>
     <title>Page 2</title>
+    <script type="text/javascript">
+
+        var i = 10;
+        function showAlert() {
+            alert("hello " + document.getElementById("text").value + " value of i=" + i);
+            //copyValue();
+
+        }
+
+    </script>
 
 </head>
 <body>
 <h1>Page 2</h1>
 
-<!--<script type="text/javascript">
+<!--
+<script type="text/javascript">
+
+    var i = 10;
     function showAlert() {
-        alert("hello " + document.getElementById("text").value);
+        alert("hello " + document.getElementById("text").value + " value of i=" + i);
+        //copyValue();
+
     }
 
-</script>-->
-<script type="text/javascript" src="scripts/demo.js"></script>
-<form action="frameSetDemo.html">
+</script>
+-->
+<!--<script type="text/javascript" src="scripts/demo.js"></script>-->
+<!--<form action="frameSetDemo.html">
 
     <input type="text" id="text" name="id">
     <input type="submit" onclick="showAlert()" value="show text" id="show">
+</form>-->
+
+<form >
+
+<!--    <input type="text" id="text" name="id">-->
+    <input type="text" id="text" name="id">
+    <input type="button" onclick="showAlert()" value="show text" id="show">
 </form>
 
 </body>

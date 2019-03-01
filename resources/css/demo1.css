@@ -1,7 +1,8 @@
 .myNewStyle {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: yellow !important;
+    color: white;
+    background: red;
 }
 p {
     color: red;
